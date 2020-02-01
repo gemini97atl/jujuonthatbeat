@@ -121,9 +121,6 @@ html[xmlns] .slides {display: block;}
 }
 
 
-
-
-
 .flex-control-nav li {margin:0 3px; display: inline-block; zoom: 1; }
 .flex-control-paging li a {width: 10px; height: 10px; display: block; background:none;cursor: pointer; text-indent: -9999px;;
 	 -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px;	box-sizing:border-box;

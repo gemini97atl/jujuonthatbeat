@@ -23,8 +23,6 @@
     13.Mediaqueries
 
 
-
-
 /*Preloader*/
 
 .loader {
@@ -310,16 +308,20 @@ section.hero .inner-hero {
 }
 h1.large {
 	font-size: 3.4375em;
-	text-transform: none;
+	text-transform: uppercase;
 	line-height: 1.5em;
 }
 /* End hero Section*/
 
 /* About section*/
 
-.block-beard img {
-	max-width: 70%;
+.block-portrait{
+	max-width: 60%;
 	display: inline-block;
+	border-radius: 50%;
+}
+.block-about {
+	text-align: left;
 }
 .sing {
 	max-width: 30%;
@@ -657,6 +659,7 @@ select:focus {
 
 /*Media queries*/
 
+
 @media screen and (min-width: 600px) and (max-width: 800px) {
 	input,
 	textarea {
@@ -671,10 +674,6 @@ select:focus {
 }
 @media all and (max-width: 990px) {
 
-
-	.main-slider .flex-control-nav {
-		display: block;
-	}
 	.main-slider .flex-direction-nav {
 		display: none;
 	}
@@ -780,7 +779,7 @@ select:focus {
 		font-size: .6125em
 	}
 	.block-beard img {
-		max-width: 80%;
+		max-width: 50%;
 	}
 	.block-img-round,
 	.block-img-round img {
@@ -828,11 +827,24 @@ select:focus {
 		width: 100%;
 	}
 }
+
+/**PHONE**/
 @media only screen and (max-width: 479px) {
 	input,
 	textarea {
 		-webkit-appearance: none;
 		-webkit-border-radius: 0;
+	}
+	.block-about{
+		text-align: center;
+	}
+	.hero-content{
+		top:80%;
+	}
+	.hero-content .title-font{
+		font-size: 2em;
+		font-weight: 600;
+		line-height: 1em;
 	}
 	.main-slider .flex-control-nav {
 		display: block;
@@ -844,7 +856,8 @@ select:focus {
 		font-size: 1.4125em;
 	}
 	h6 {
-		font-size: .6125em
+		font-size: 1.125em;
+		padding-top: 1em;
 	}
 	.block-beard img {
 		max-width: 80%;

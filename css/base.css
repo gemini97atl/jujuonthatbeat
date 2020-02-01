@@ -194,21 +194,42 @@ h4,
 h5,
 h6,
 .h3 {
-	font-family: 'Lora', serif;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	margin-bottom: .4em;
+	font-size: 3em;
 	text-transform: capitalize;
-	font-weight: 400;
+	font-weight: 100;
 	position: relative;
 }
 .secondary-font {
 	font-family: 'Homemade Apple', cursive;
 }
+.title-font{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.body-font{
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.header-font{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.strong{
+	font-weight: 700;
+}
 h1 {
-	font-size: 3.4375em;
+	font-size: 4em;
 	line-height: 1.5em;
 }
 h2 {
 	font-size: 2em;
+	line-height: 2em;
 }
 h3 {
 	font-size: 1.125em;
@@ -231,7 +252,8 @@ h5 {
 }
 h6 {
 	letter-spacing: 0.1875em;
-	font-size: .8125em;
+	font-size: 1.2em;
+
 }
 h1.medium {
 	font-size: 2.25em;
@@ -246,7 +268,7 @@ h1.medium {
 h4,
 h6,
 strong {
-	font-weight: 700;
+	/*font-weight: 700;*/
 }
 .fw-800 {
 	font-weight: 800;
@@ -307,8 +329,11 @@ section,
 .text-white {
 	color: #ffffff;
 }
-.text-brown {
-	color: #552d25;
+.text-pink {
+	color: #AC80A0;
+}
+.text-black {
+	color: #000000;
 }
 .text-beige {
 	color: #c98a6a;
@@ -428,9 +453,9 @@ input[type="text"],
 .but {
 	display: inline-block;
 	position: relative;
-	color: #c98a6a;
+	color: #FFFFFF;
 	padding: 1em 2.4567em;
-	background: #552d25;
+	background:  rgba(0, 0, 0, 0.5);
 	text-transform: uppercase;
 	border-radius: 6px;
 	-webkit-border-radius: 6px;
@@ -521,8 +546,8 @@ section.divider.medium {
 	padding-bottom: 10em;
 }
 section.main {
-	padding-top: 7.42857em;
-	padding-bottom: 7.42857em;
+	padding-top: 5em;
+	padding-bottom: 5em;
 }
 div[class*="col-"].gap-one-bottom,
 .gap-one-bottom {
@@ -564,9 +589,17 @@ img {
 	background: #ffffff;
 }
 .bg-grey {
-	background: #fafafa;
+	background: #F0EEF2;
 }
 .bg-beige {
 	background: rgba(252, 238, 227, .3);
+}
+
+.bg-pink {
+	background: #AC80A0;
+}
+
+.bg-black {
+	background: #000000;
 }
 /*End misc */
